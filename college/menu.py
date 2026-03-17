@@ -1,6 +1,8 @@
+print("Welcone to my store")
 print("1.View Data\n2.Add Data\n3.Delete Data\n4.Exit")
+
 while True:
- number= int(input("enter the number fo the things you want to print"))
+ number= int(input("Enter the number fo the things you want to print"))
  if(number==1):
     print("View Data")
  elif(number==2):
@@ -10,5 +12,7 @@ while True:
  elif(number==4):
     print("Exit")
     break
+
+
 
 
