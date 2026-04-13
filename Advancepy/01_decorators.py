@@ -10,6 +10,7 @@ def decorator(func):
         func()
         print("I have executed this function")
     return wrapper
+@decorator
 def say_hello():
     print("hello")
 # say_hello()
